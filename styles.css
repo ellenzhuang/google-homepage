@@ -22,8 +22,6 @@ body {
   padding-left: 15px;
   font-family: Arial, sans-serif;
   font-size: 13px;
-  cursor: pointer;
-  text-decoration: none;
 }
 
 .nav-item a,
@@ -32,7 +30,7 @@ body {
   text-decoration: none;
 }
 
-.nav-item a:hover {
+a {
   text-decoration: underline;
 }
 
@@ -57,15 +55,14 @@ body {
   height: 92px;
   width: 272px;
   padding: 150px 0 30px 0;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   text-align: center;
 }
 
 #bar {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+  height: 44px;
+  width: 482px;
+  margin: 0 auto;
   background: #fff;
   display: flex;
   border-radius: 8px;
@@ -73,9 +70,7 @@ body {
   box-shadow: none;
   border-radius: 24px;
   z-index: 3;
-  height: 44px;
-  margin: 0 auto;
-  width: 482px;
+  text-align: center;
 }
 
 #bar-icon {
@@ -84,7 +79,7 @@ body {
 }
 
 .search {
-  padding: 20px 0 0 0;
+  padding-top: 20px;
   text-align: center;
 }
 
@@ -125,9 +120,6 @@ body {
   text-align: left;
   max-width: 50%;
   height: 40px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
 }
 
 .right-footer {
@@ -136,22 +128,15 @@ body {
   text-align: right;
   max-width: 50%;
   height: 40px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
 }
 
 .footer-item {
   display: inline-block;
-  padding: 0 0 0 27px;
+  padding-left: 27px;
 }
 
 .footer-item a,
 .footer-item a:visited {
   color: #5f6368;
   text-decoration: none;
-}
-
-.footer-item a:hover {
-  text-decoration: underline;
 }
